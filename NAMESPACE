@@ -6,8 +6,12 @@
 # IMPORTS
 ###
 
+importClassesFrom(splus2R, signalSeries)
+
+
 importFrom(graphics, boxplot, dotchart)
-import(ifultools, splus2R, MASS)
+import(splus2R, ifultools, MASS)
+
 
 ###
 # S3 Generics
