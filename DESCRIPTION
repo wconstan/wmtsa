@@ -8,7 +8,8 @@ Imports:
   splus2R (>= 1.2-0), 
   ifultools (>= 2.0-0), 
   MASS,
-  graphics
+  graphics,
+  methods
 Description: Software to book Wavelet Methods for Time Series Analysis,
         Donald B. Percival and Andrew T. Walden, Cambridge University
         Press, 2000.
