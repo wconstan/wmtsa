@@ -51,7 +51,7 @@
 # wavCWT (constructor)
 ###
 
-"wavCWT" <- function(x, scale.range=deltat(x) * c(1, length(x)), n.scale=100,
+wavCWT <- function(x, scale.range=deltat(x) * c(1, length(x)), n.scale=100,
   wavelet="gaussian2", shift=5, variance=1){
 
   # check input argument types and lengths
