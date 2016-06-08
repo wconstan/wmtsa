@@ -83,7 +83,7 @@
   n.scale <- length(scale)
 
   # check scale range
-  if (abs(min(scale) - sampling.interval) > .Machine$double.eps)
+  if (min(scale) + .Machine$double.eps < sampling.interval)
     stop("Minimum scale must be greater than or equal to sampling interval ",
       "of the time series")
 
